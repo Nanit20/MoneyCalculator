@@ -11,12 +11,12 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import moneycalculator.control.Command;
-import moneycalculator.model.Currency;
-import moneycalculator.ui.MoneyDialog;
-import moneycalculator.ui.MoneyDisplay;
-import moneycalculator.ui.swing.SwingMoneyDialog;
-import moneycalculator.ui.swing.SwingMoneyDisplay;
+import Control.Command;
+import Model.Currency;
+import Ui.MoneyDialog;
+import Ui.MoneyDisplay;
+import Ui.swing.SwingMoneyDialog;
+import Ui.swing.SwingMoneyDisplay;
 
 public class MainFrame extends JFrame{
     private final Currency[] currencies;

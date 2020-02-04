@@ -1,4 +1,4 @@
-package moneycalculator.persistence.files;
+package Persistence.Files;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import moneycalculator.model.Currency;
-import moneycalculator.persistence.CurrencyListLoader;
+import Model.Currency;
+import Persistence.CurrencyListLoader;
 
 
 public class FileCurrencyListLoader implements CurrencyListLoader

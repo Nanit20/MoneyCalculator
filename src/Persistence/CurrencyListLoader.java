@@ -1,6 +1,6 @@
-package moneycalculator.persistence;
+package Persistence;
 
-import moneycalculator.model.Currency;
+import Model.Currency;
 
 public interface CurrencyListLoader {
     Currency[] currencies();

@@ -1,10 +1,10 @@
 
 package MoneyCalculator;
 
-import moneycalculator.control.CalculateCommand;
-import moneycalculator.persistence.CurrencyListLoader;
-import moneycalculator.persistence.files.FileCurrencyListLoader;
-import moneycalculator.persistence.rest.RestExchangeRateLoader;
+import Control.CalculateCommand;
+import Persistence.CurrencyListLoader;
+import Persistence.Files.FileCurrencyListLoader;
+import Persistence.Rest.RestExchangeRateLoader;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package moneycalculator.ui;
+package Ui;
 
-import moneycalculator.model.Money;
+import Model.Money;
 
 public interface MoneyDialog {
     Money get();

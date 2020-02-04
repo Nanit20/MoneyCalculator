@@ -1,4 +1,4 @@
-package moneycalculator.control;
+package Control;
 
 public interface Command {
     String name();

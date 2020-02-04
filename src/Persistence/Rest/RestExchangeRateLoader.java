@@ -1,11 +1,11 @@
-package moneycalculator.persistence.rest;
+package Persistence.Rest;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import moneycalculator.model.Currency;
-import moneycalculator.model.ExchangeRate;
-import moneycalculator.persistence.ExchangeRateLoader;
+import Model.Currency;
+import Model.ExchangeRate;
+import Persistence.ExchangeRateLoader;
 
 
 public class RestExchangeRateLoader implements ExchangeRateLoader{

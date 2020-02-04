@@ -1,4 +1,4 @@
-package moneycalculator.ui.swing;
+package Ui.swing;
 
 import java.awt.Component;
 import java.awt.event.ItemEvent;
@@ -9,9 +9,9 @@ import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.BadLocationException;
-import moneycalculator.model.Currency;
-import moneycalculator.model.Money;
-import moneycalculator.ui.MoneyDialog;
+import Model.Currency;
+import Model.Money;
+import Ui.MoneyDialog;
 
 public class SwingMoneyDialog extends JPanel implements MoneyDialog {
     private final Currency[] currencies;

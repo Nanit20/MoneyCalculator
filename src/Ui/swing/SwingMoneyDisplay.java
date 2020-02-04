@@ -1,11 +1,11 @@
-package moneycalculator.ui.swing;
+package Ui.swing;
 
 import java.awt.Component;
 import java.awt.FlowLayout;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import moneycalculator.model.Money;
-import moneycalculator.ui.MoneyDisplay;
+import Model.Money;
+import Ui.MoneyDisplay;
 
 public class SwingMoneyDisplay extends JPanel implements MoneyDisplay {
     private Money money;

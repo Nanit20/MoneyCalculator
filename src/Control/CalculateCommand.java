@@ -1,10 +1,10 @@
-package moneycalculator.control;
+package Control;
 
-import moneycalculator.model.Currency;
-import moneycalculator.model.Money;
-import moneycalculator.persistence.ExchangeRateLoader;
-import moneycalculator.ui.MoneyDialog;
-import moneycalculator.ui.MoneyDisplay;
+import Model.Currency;
+import Model.Money;
+import Persistence.ExchangeRateLoader;
+import Ui.MoneyDialog;
+import Ui.MoneyDisplay;
 
 
 public class CalculateCommand implements Command{
